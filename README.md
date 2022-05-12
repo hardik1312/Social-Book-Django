@@ -1,1 +1,1 @@
-# Social Book App Using Django
+# Social Book App Using Django Framework
