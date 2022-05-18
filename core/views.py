@@ -9,12 +9,12 @@ from .models import Profile
 
 @login_required(login_url='signin')
 def index(request):
-    return render(request, 'index.html',)
+    user_object = User.objects.get(username=request.user.username)
+    user_profile = Profile.objects.get(user=user_object)
+    return render(request, 'index.html', {'user_profile': user_profile})
 
 @login_required(login_url='signin')
 def upload(request):
-    user_object = User.objects.get(username=request.user.username)
-    user_profile = Profile.objects.get(user=user_object)
     return HttpResponse('<h1>Upload View</h1>')
 
 @login_required(login_url='signin')
