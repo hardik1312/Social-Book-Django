@@ -12,6 +12,12 @@ def index(request):
     return render(request, 'index.html',)
 
 @login_required(login_url='signin')
+def upload(request):
+    user_object = User.objects.get(username=request.user.username)
+    user_profile = Profile.objects.get(user=user_object)
+    return HttpResponse('<h1>Upload View</h1>')
+
+@login_required(login_url='signin')
 def settings(request):
     user_profile = Profile.objects.get(user=request.user)
 
