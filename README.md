@@ -36,6 +36,5 @@ Project is: _in progress_
 
 
 ## Acknowledgements
-Give credit here.
 - This project was based on [this tutorial](https://youtu.be/xSUm6iMtREA).
 - Many thanks to FreeCodeCamp YouTube channel and instructor CodeWithTomi.
