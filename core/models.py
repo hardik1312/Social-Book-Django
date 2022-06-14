@@ -1,3 +1,4 @@
+from unittest.util import _MAX_LENGTH
 from django.db import models
 from django.contrib.auth import get_user_model
 import uuid
@@ -33,3 +34,10 @@ class LikePost(models.Model):
 
     def ___str___(self):
         return self.username
+
+class FollowersCount(models.Model):
+    follower = models.CharField(max_length=100)
+    user = models.CharField(max_length=100)
+
+    def ___str___(self):
+        return self.user
