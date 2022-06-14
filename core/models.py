@@ -13,8 +13,8 @@ class Profile(models.Model):
     profileimg = models.ImageField(upload_to='profile_images', default='blank-profile-picture.png')
     location = models.CharField(max_length=100, blank=True)
 
-def ___str___(self):
-    return self.user.username
+    def ___str___(self):
+        return self.user.username
 
 class Post(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
@@ -24,5 +24,5 @@ class Post(models.Model):
     created_at = models.DateTimeField(default=datetime.now)
     no_of_likes = models.IntegerField(default=0)
 
-def __str__(self):
-    return self.user
+    def __str__(self):
+        return self.user
