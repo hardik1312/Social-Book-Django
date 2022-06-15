@@ -5,6 +5,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
+* [Screenshots](#screenshots)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
@@ -35,6 +36,15 @@
 - Feature to download images
 - Feature to search users
 - User suggestions in post feed
+
+
+## Screenshots
+![Post Feed View](./images/SocialBook1.png)
+![Search Result View](./images/SocialBook2.png)
+![Profile Page1 View](./images/SocialBook3.png)
+![Profile Page2 View](./images/SocialBook4.png)
+![Upload Pics View](./images/SocialBook5.png)
+![Account Settings View](./images/SocialBook6.png)
 
 
 ## Usage
