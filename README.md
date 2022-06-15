@@ -19,11 +19,22 @@
 - Django 4.0.4
 - HTML5
 - BOOTSTRAP
+- JavaScript
 
 
 ## Features
-- Create Profile
-- Add Pictures To Profile
+- Signup
+- Signin
+- Logout
+- Add profile picture, bio, and location to profile
+- Uploading Post to site
+- Post feed to see posts from profiles we follow
+- Feature to like/unlike a post
+- Profile Page where we can see Follower count, and Following count,
+- Follow button, Profile settings button, Home button, and Posts uploaded by a particular user 
+- Feature to download images
+- Feature to search users
+- User suggestions in post feed
 
 
 ## Usage
@@ -32,7 +43,7 @@
 
 
 ## Project Status
-Project is: _in progress_
+Project is: _Complete_
 
 
 ## Acknowledgements
